@@ -20,9 +20,9 @@ An app that allows you to create and store notes. The notes are stored on a serv
 
 On the home page, click "Get Started" to go to the notes page. There will be two text input fields on the right: one for the note title, and one for the note content. When you have finished writing your note, click on the save logo at the top right (the floppy disk logo). The note title will appear on the left side of the page. If you want to view a previously written note, click the note's title and it will appear in place of the text boxes. Click the pencil icon in the top right to go back to writing a new note.
 
-![Home Page](./public/assets/screenshots/Screenshot-1.png)
-![Note Taking Page](./public/assets/screenshots/Screenshot-2.png)
-![View a Previous Note](./public/assets/screenshots/Screenshot-3.png)
+![Home Page](./public/assets/screenshots/Screenshot-1.PNG)
+![Note Taking Page](./public/assets/screenshots/Screenshot-2.PNG)
+![View a Previous Note](./public/assets/screenshots/Screenshot-3.PNG)
 
 ## Credits
 
