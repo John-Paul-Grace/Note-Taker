@@ -36,4 +36,18 @@ app.post("/api/notes", (req, res) => {
     });
 });
 
+app.delete("/api/notes/:id", (req, res) => {
+    const id = req.params.id - 1;
+
+    db.splice(id, 1);
+
+    const dbString = JSON.stringify(db);
+
+    fs.writeFile("./db/db.json", dbString, (err, data) => {
+        if (err) throw err;
+
+        res.end();
+    });
+});
+
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
